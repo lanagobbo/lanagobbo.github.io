@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Treći zadatak</title>
+      <meta charset="UTF-8">
+   
+<style> 
+
+  .topnav {
+	  background-color: orchid;
+	  width:700px;
+	  padding: 20px;
+	  align: center
+	  }
+	  
+	  .topnav a {
+	  text-align: center;
+	  color: #ffffff;
+	  padding: 14px 12px;
+	  font-size:16px;
+	  font-family: Helvetica;
+	  }
+	  
+	  .topnav a:hover {
+	  background-color: #ffe6ff;
+	  color:#000000;
+	  transition: 1s ease-out;
+	  }
+	  
+	  pre {
+	   font-family:Helvetica;
+	  color:gray;
+	  text-align:center;
+	  }
+	  
+	   body {
+	  background-color:lavenderblush;
+	  }
+	  
+	  h1 {
+	  font-family:Helvetica;
+	  color:dimgrey;
+	  text-align:center;
+	  text-shadow: -2px -2px orchid;
+	  }
+	  
+	  div {
+	  width:700px;
+	  padding:20px;
+	  margin:auto;
+	  background-color:thistle;
+	  align:center;
+	  border-radius: 0px;
+	  transition: 1s ease-out;
+	  }
+	  
+	 form {
+	 font-family:Helvetica;
+	  color:#660066;
+	  text-align:center;
+	  padding:30px;
+	  width: 400px;
+	  background-color:#f2d9f2;
+	  margin:auto;
+	 }
+	 
+	 input {
+	 font-family:Helvetica;
+	 color:gray;
+	 background-color:white;
+	 opacity:50%;
+	 background
+	 text-align:center;
+	 padding:15px;
+	 margin:20px;
+	 
+	 }
+	 
+	  #sec1 div:hover {
+	  border-radius: 20%;
+	  }
+	  
+	 #sec2 form:hover {
+	 background-color: #e5b3e5;
+	 }
+	
+	  
+</style>   
+
+</head>
+
+<body>
+
+   <div class="topnav">
+     <a class="active" href="index.html">O Meni</a>
+	 <a href="putovanja.html">Putovanja</a>
+	 <a href="slike.html">Slike</a>
+	 <a href="drustvenemreze.html">Društvene mreže</a>
+	 <a href="formular.html">Formular</a>
+	 <a href="najdrazeboje.html">Najdraže boje</a>
+	 <a href="favoriti.html">Favoriti</a>
+	 
+  </div>
+
+<h1>Upitnik</h1>
+
+
+<section id=sec1>
+
+<div>
+<pre>
+Hvala što ste posjetili moju Portfolio stranicu!
+Nadam se da ste me sada bolje upoznali. Htjela bih i ja Vas bolje
+poznavati pa Vas molim da ispunite ovaj upitnik!
+</pre>
+</div>
+
+</section>
+<br>
+<br>
+
+<section id=sec2>
+
+
+<form action="">
+
+     <label for="ime">Ime</label><br>
+         <input type="text" id="ime"><br>
+		 
+     <label for="prezime">Prezime</label><br>
+         <input type="text" id="prezime"><br>
+		 
+     <label for="datumrodenja">Datum rođenja</label><br>
+         <input type="date" id="datumrodenja"><br>
+		 
+     <label for="mjestorodenja">Mjesto rođenja</label><br>
+         <input type="text" id="mjestorodenja"><br>
+		 
+		  <fieldset>
+	 
+	     <legend>Spol</legend>
+		     <label for="M">Muški</label>
+	             <input type="radio" value="M" id="M"><br>
+			 <label for="Ž">Ženski</label>
+			     <input type="radio" value="Ž" id="Ž"><br>
+			 <label for="drugo">Drugo</label>	 
+			     <input type="radio" value="drugo" id="drugo"><br>
+			 <label for="ne">Ne želim reći</label>	 
+			     <input type="radio" value="ne" id="ne"><br>
+			 
+	 </fieldset><br>
+	 
+     <label for="hobi">Hobi</label><br>
+         <input type="text" id="hobi"><br>
+		 
+     <label for="boja">Najdraža boja</label><br>
+	     <input type="color" id="boja"><br>
+		 
+	 <fieldset>
+	 
+	     <legend>Najdraže vrste glazbe</legend>
+		     <label for="rock">Rock</label>
+	             <input type="checkbox" value="rock" id="rock"><br>
+			 <label for="pop">Pop</label>
+			     <input type="checkbox" value="pop" id="pop"><br>
+			 <label for="hiphop">Hiphop</label>	 
+			     <input type="checkbox" value="hiphop" id="hiphop"><br>
+			 <label for="domaca">Domaća</label>	 
+			     <input type="checkbox" value="domaca" id="domaca"><br>
+			 <label for="rb">RandB</label>
+			     <input type="checkbox" value="rb" id="rb"><br>
+			 <label for="soul">Soul</label>
+			     <input type="checkbox" value="soul" id="soul"><br>	 
+			 <label for="indie">Indie</label>
+			     <input type="checkbox" value="indie" id="indie"><br>
+			 <label for="turbofolk">Turbofolk</label>
+			     <input type="checkbox" value="turbofolk" id="turbofolk"><br>
+			 <label for="ostalo">Ostalo</label>
+			     <input type="checkbox" value="ostalo" id="ostalo"><br>
+				 	
+	 </fieldset><br>
+	 
+	 <label for="dodatak">Dodatak</label><br>
+	     <input type="text" id="dodatak"><br>
+		
+		 <input type="reset" value="Poništi">
+             <input type="submit" value="Pošalji">
+		 
+
+	 
+  
+</form>
+
+</section>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

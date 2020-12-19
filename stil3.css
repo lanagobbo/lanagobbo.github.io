@@ -1,0 +1,103 @@
+	 
+	 body {
+	 margin:0;
+	 box-sizing:border-box;
+	 min-height:135vh;
+	 margin:0px;
+	 background-image: url(dodaci/zid.jpg);
+	 background-size: auto 135vh;
+	 background-position:90%;
+	 padding:5%;
+	 }
+
+     #ekran {
+	 width: 511px;
+	 height:298px;
+	 background-image: url(dodaci/tv.png);
+     margin: auto;
+	 box-sizing:border-box;
+	 }
+	 
+	 #ekran iframe {
+	 width: 100%;
+	 height:100%;
+	 }
+	 
+	 #komoda {
+	 min-width:511px;
+	 width:60%;
+	 margin:auto;
+	 display:grid;
+	 grid-template-columns: 1fr 2fr 1fr;
+	 grid-auto-rows: 140px;
+	 position:relative;
+	 }
+	 
+	 #komoda, #komoda div {
+	 background-color: silver;
+	 border: 4px solid gray;
+	 border-radius: 5px;
+	 }
+	 
+	 #radio iframe {
+     width:80%;
+	 height:30px;
+	 }
+	 
+	 #radio, #kazete #yt{
+	 display:flex;
+	 flex-direction:column;
+	 align-items:center;
+	 justify-content:flex-end;
+	 }
+	 
+	 .topnav {
+	 background-color: orchid;
+	 width:700px;
+     padding: 20px;
+     margin: auto;
+     }
+	  
+     .topnav a {
+     text-align: center;
+     color: #ffffff;
+     padding: 14px 12px;
+     font-size:16px;
+     font-family: Helvetica;
+     }
+	  
+     .topnav a:hover {
+     background-color: #ffe6ff;
+	 color:#000000;
+	 transition: 1s ease-out;
+     }
+	 
+     p {
+     font-family:Helvetica;
+	 color:gray;
+     text-align:center;
+     }
+	  
+     h1 {
+     font-family:Helvetica;
+     color:dimgrey;
+     text-align:center;
+     text-shadow: -2px -2px orchid;
+     }
+		 
+	 #paragraf {
+     width:700px;
+	 height:40px;
+     padding:5px;
+     margin:auto;
+     background-color:thistle;
+	 border-radius: 0px;
+	 transition: 1s ease-out;
+	 }
+	 
+	 #sec1 div:hover {
+	 border-radius: 20%;
+	 }
+	 
+	 
+     
